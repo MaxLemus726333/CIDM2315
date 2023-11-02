@@ -33,7 +33,6 @@ class Program
         Console.WriteLine($"The average GPA is: {average}");
         
         foreach(var stu in Student.student_list){
-            if(gradebook.ContainsKey(double ) >= average){
                 stu.PrintInfo();
             }
         }
@@ -55,5 +54,4 @@ class Program
         studentName = inputName;
         student_list.Add(this);
     }
-}
 }
